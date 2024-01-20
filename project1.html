@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Edit meta description for SEO -->
+
+    <meta
+      name="description"
+      content="porfolio website for Hyejin Kim."
+    />
+    <!-- Edit title -->
+    <title>Hyejin Kim</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Work+Sans:wght@400;800&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Work+Sans:wght@400;800&display=swap"
+        rel="stylesheet"
+        type="text/css"
+      />
+    </noscript>
+
+    <!-- Styleshits -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="index.html#top">HOME</a></li>
+        <li><a href="index.html#project">PROJECTS</a></li>
+        <li><a href="#about">ABOUT</a></li>
+      </ul>
+    </nav>
+    <!-- End of Navigation -->
+
+    <section class="prj-head">
+        <div class="prj-title">
+            <h2>Cross stocks recommendation</h2>
+        </div>
+        <p class="prj-summary">Developed a Python-based stock portfolio service using an Artificial Neural Network (ANN) model. Given a NASDAQ stock code, the system recommends a portfolio bundling the five most similar KOSDAQ stocks. Employed the Annoy algorithm for enhanced similarity computation. This project showcases my expertise in financial analysis and machine learning.</p>
+    </section>
+
+
+  <!-- About -->
+    <div class="center">
+        <div id="about">
+        <!-- Image  -->
+        <div class="about-img-container">
+            <img
+            width="120"
+            height="120"
+            src="./asset/img/mimoji.jpg.png"
+            alt="pfp"
+            />
+        </div>
+        <!-- Name -->
+        <h2 class="gradient">Hyejin Kim</h2>
+        <!-- social media container -->
+        <ul class="about-social-container">
+            <li>
+            <img src="./asset/svg/github.svg" alt="Github" />
+            <a href="https://github.com/99hyejin/">Github</a>
+            </li>
+
+            <li>
+            <img src="./asset/svg/mail.svg" alt="Mail" />
+            <p>jinatpc@gmail.com</p>
+            </li>
+
+            <li>
+            <img src="./asset/svg/linkedin.svg" alt="LinkedIn" />
+            <a href="https://www.linkedin.com/in/hyejin-kim-3760a6272/"> LinkedIn</a>
+            </li>
+        </ul>
+        <!-- long bio -->
+        <div class="long-bio">
+            Bachelor of Ewha Womans University <br />
+        Majored in Computer Science and Statistics <br>
+        </div>
+        <!-- Skills / Tools -->
+        <h3>Skills / Tools</h3>
+        <ul class="skill">
+            <li>Python</li>
+            <li>R</li>
+            <li>MySQL</li>
+            <li>PHP</li>
+            <li>C++</li>
+            <li>Git</li>
+        </ul>
+        </div>
+    </div>
+  <script type="module" src="./script/event-effect.js"></script>
+  </body>
+</html>
